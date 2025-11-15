@@ -8,12 +8,16 @@
   ],
   "routes": [
     {
-      "src": "/static/(.*)",
-      "dest": "/web/$1"
+      "src": "/assess",
+      "dest": "api.py"
+    },
+    {
+      "src": "/history",
+      "dest": "api.py"
     },
     {
       "src": "/(.*)",
-      "dest": "api.py"
+      "dest": "/web/$1"
     }
   ]
 }
