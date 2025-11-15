@@ -1,0 +1,25 @@
+{
+  "MonsoonIntensity": 82,
+  "TopographyDrainage": 58,
+  "RiverManagement": 52,
+  "Deforestation": 68,
+  "Urbanization": 72,
+  "ClimateChange": 65,
+  "DamsQuality": 55,
+  "Siltation": 75,
+  "AgriculturalPractices": 52,
+  "Encroachments": 68,
+  "IneffectiveDisasterPreparedness": 65,
+  "DrainageSystems": 62,
+  "CoastalVulnerability": 18,
+  "Landslides": 38,
+  "Watersheds": 48,
+  "InfrastructureDecay": 68,
+  "PopulationScore": 75,
+  "WetlandLoss": 62,
+  "InadequatePlanning": 65,
+  "PoliticalFactors": 48,
+  "district": "Pune",
+  "state": "Maharashtra"
+}
+

@@ -1,0 +1,25 @@
+{
+  "MonsoonIntensity": 32,
+  "TopographyDrainage": 75,
+  "RiverManagement": 78,
+  "Deforestation": 22,
+  "Urbanization": 48,
+  "ClimateChange": 28,
+  "DamsQuality": 80,
+  "Siltation": 25,
+  "AgriculturalPractices": 52,
+  "Encroachments": 28,
+  "IneffectiveDisasterPreparedness": 38,
+  "DrainageSystems": 74,
+  "CoastalVulnerability": 8,
+  "Landslides": 14,
+  "Watersheds": 42,
+  "InfrastructureDecay": 40,
+  "PopulationScore": 52,
+  "WetlandLoss": 18,
+  "InadequatePlanning": 35,
+  "PoliticalFactors": 32,
+  "district": "Haryana",
+  "state": "Haryana"
+}
+

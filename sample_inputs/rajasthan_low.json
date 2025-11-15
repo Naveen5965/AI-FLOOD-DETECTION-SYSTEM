@@ -1,0 +1,25 @@
+{
+  "MonsoonIntensity": 28,
+  "TopographyDrainage": 78,
+  "RiverManagement": 80,
+  "Deforestation": 18,
+  "Urbanization": 42,
+  "ClimateChange": 25,
+  "DamsQuality": 82,
+  "Siltation": 20,
+  "AgriculturalPractices": 55,
+  "Encroachments": 22,
+  "IneffectiveDisasterPreparedness": 35,
+  "DrainageSystems": 76,
+  "CoastalVulnerability": 5,
+  "Landslides": 12,
+  "Watersheds": 45,
+  "InfrastructureDecay": 38,
+  "PopulationScore": 48,
+  "WetlandLoss": 15,
+  "InadequatePlanning": 32,
+  "PoliticalFactors": 28,
+  "district": "Jaipur",
+  "state": "Rajasthan"
+}
+

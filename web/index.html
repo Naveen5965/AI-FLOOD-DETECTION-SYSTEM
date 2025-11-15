@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Flood Intelligence Console</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""></script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-brand">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Emblem_of_India.svg" alt="Government of India" class="nav-logo" />
+          <span class="nav-title">Flood Detection System</span>
+        </div>
+        <div class="nav-links">
+          <a href="home.html" class="nav-link">Home</a>
+          <a href="about.html" class="nav-link">About Us</a>
+          <a href="links.html" class="nav-link">Important Links</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+          <a href="index.html" class="nav-link active btn-nav">Console</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <header>
+      <div class="hero-content">
+        <div class="header-top">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Emblem_of_India.svg" alt="Government of India" class="govt-logo" />
+          <div class="header-text">
+            <p class="eyebrow">Government of India | NDMA</p>
+            <h1>Flood Intelligence Console</h1>
+          </div>
+        </div>
+        <p class="lede">Run district-level scenarios across 150+ locations covering all 28 states & 8 UTs. Quantify risk bands, surface explainable drivers, and dispatch multi-agency response in minutes.</p>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="panel" id="latest-assessment-panel">
+        <h2>Latest Assessment</h2>
+        <div class="result-card" id="heroSummary">
+          <p class="muted">Use the simulator to view risk, confidence, and top drivers.</p>
+        </div>
+      </section>
+
+      <section class="panel" id="scenario-panel">
+        <h2 id="scenario-form">Scenario Inputs</h2>
+        <p>All signals are normalized 0-100 as per MoWR policy definitions. Select from 150+ districts across India.</p>
+        <form id="scenarioForm">
+          <div class="form-grid">
+            <label>
+              <span>State / UT</span>
+              <select id="state" name="state" required>
+                <option value="">-- Select State --</option>
+              </select>
+            </label>
+            <label>
+              <span>District</span>
+              <select id="district" name="district" required>
+                <option value="">-- Select District --</option>
+              </select>
+            </label>
+          </div>
+          <div id="featureControls" class="feature-grid"></div>
+          <div class="form-actions">
+            <button type="submit" class="btn primary">Assess Flood Risk</button>
+            <p class="hint">Select a state to auto-load sample data • Endpoint: <code>POST /assess</code></p>
+          </div>
+        </form>
+      </section>
+
+      <section class="panel results" id="results-panel">
+        <h2>Response Intelligence</h2>
+        <div class="result-card" id="riskSummary">
+          <p class="muted">No assessment yet. Submit a scenario to see insights.</p>
+        </div>
+        <div class="result-card" id="drivers"></div>
+        <div class="result-card" id="actions"></div>
+        <div class="result-card" id="history"></div>
+      </section>
+
+      <section class="panel map-panel" id="map-panel">
+        <h2>Geographic View</h2>
+        <p class="hint">Assessed locations shown with risk-based markers • Coverage: 150+ districts across 28 states & 8 UTs</p>
+        <div id="map"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Flood AI Prototype · Ministry of Jal Shakti &amp; NDMA · Data remains on-prem / NIC cloud.</p>
+    </footer>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>

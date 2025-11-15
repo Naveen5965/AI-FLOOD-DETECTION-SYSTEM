@@ -1,0 +1,25 @@
+{
+  "MonsoonIntensity": 92,
+  "TopographyDrainage": 72,
+  "RiverManagement": 58,
+  "Deforestation": 78,
+  "Urbanization": 65,
+  "ClimateChange": 75,
+  "DamsQuality": 52,
+  "Siltation": 82,
+  "AgriculturalPractices": 68,
+  "Encroachments": 72,
+  "IneffectiveDisasterPreparedness": 70,
+  "DrainageSystems": 55,
+  "CoastalVulnerability": 88,
+  "Landslides": 82,
+  "Watersheds": 62,
+  "InfrastructureDecay": 75,
+  "PopulationScore": 78,
+  "WetlandLoss": 75,
+  "InadequatePlanning": 72,
+  "PoliticalFactors": 58,
+  "district": "Kochi",
+  "state": "Kerala"
+}
+

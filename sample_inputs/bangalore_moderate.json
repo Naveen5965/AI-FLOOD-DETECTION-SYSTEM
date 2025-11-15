@@ -1,0 +1,25 @@
+{
+  "MonsoonIntensity": 48,
+  "TopographyDrainage": 62,
+  "RiverManagement": 68,
+  "Deforestation": 38,
+  "Urbanization": 68,
+  "ClimateChange": 42,
+  "DamsQuality": 72,
+  "Siltation": 42,
+  "AgriculturalPractices": 56,
+  "Encroachments": 44,
+  "IneffectiveDisasterPreparedness": 52,
+  "DrainageSystems": 64,
+  "CoastalVulnerability": 22,
+  "Landslides": 28,
+  "Watersheds": 58,
+  "InfrastructureDecay": 54,
+  "PopulationScore": 62,
+  "WetlandLoss": 35,
+  "InadequatePlanning": 48,
+  "PoliticalFactors": 42,
+  "district": "Bangalore",
+  "state": "Karnataka"
+}
+

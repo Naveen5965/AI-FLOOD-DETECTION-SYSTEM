@@ -1,0 +1,25 @@
+{
+  "MonsoonIntensity": 92,
+  "TopographyDrainage": 75,
+  "RiverManagement": 80,
+  "Deforestation": 78,
+  "Urbanization": 68,
+  "ClimateChange": 76,
+  "DamsQuality": 70,
+  "Siltation": 85,
+  "AgriculturalPractices": 72,
+  "Encroachments": 80,
+  "IneffectiveDisasterPreparedness": 78,
+  "DrainageSystems": 72,
+  "CoastalVulnerability": 42,
+  "Landslides": 52,
+  "Watersheds": 85,
+  "InfrastructureDecay": 76,
+  "PopulationScore": 80,
+  "WetlandLoss": 82,
+  "InadequatePlanning": 78,
+  "PoliticalFactors": 62,
+  "district": "Patna",
+  "state": "Bihar"
+}
+

@@ -1,0 +1,25 @@
+{
+  "MonsoonIntensity": 88,
+  "TopographyDrainage": 62,
+  "RiverManagement": 56,
+  "Deforestation": 72,
+  "Urbanization": 76,
+  "ClimateChange": 68,
+  "DamsQuality": 52,
+  "Siltation": 78,
+  "AgriculturalPractices": 58,
+  "Encroachments": 72,
+  "IneffectiveDisasterPreparedness": 68,
+  "DrainageSystems": 65,
+  "CoastalVulnerability": 22,
+  "Landslides": 42,
+  "Watersheds": 52,
+  "InfrastructureDecay": 70,
+  "PopulationScore": 78,
+  "WetlandLoss": 65,
+  "InadequatePlanning": 68,
+  "PoliticalFactors": 52,
+  "district": "Mumbai",
+  "state": "Maharashtra"
+}
+

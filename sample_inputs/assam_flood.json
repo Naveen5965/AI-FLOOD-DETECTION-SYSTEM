@@ -1,0 +1,25 @@
+{
+  "MonsoonIntensity": 94,
+  "TopographyDrainage": 78,
+  "RiverManagement": 82,
+  "Deforestation": 75,
+  "Urbanization": 62,
+  "ClimateChange": 78,
+  "DamsQuality": 72,
+  "Siltation": 88,
+  "AgriculturalPractices": 68,
+  "Encroachments": 78,
+  "IneffectiveDisasterPreparedness": 76,
+  "DrainageSystems": 70,
+  "CoastalVulnerability": 35,
+  "Landslides": 48,
+  "Watersheds": 82,
+  "InfrastructureDecay": 72,
+  "PopulationScore": 72,
+  "WetlandLoss": 85,
+  "InadequatePlanning": 74,
+  "PoliticalFactors": 58,
+  "district": "Guwahati",
+  "state": "Assam"
+}
+

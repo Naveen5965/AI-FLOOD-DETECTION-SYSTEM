@@ -1,0 +1,25 @@
+{
+  "MonsoonIntensity": 42,
+  "TopographyDrainage": 68,
+  "RiverManagement": 72,
+  "Deforestation": 32,
+  "Urbanization": 54,
+  "ClimateChange": 38,
+  "DamsQuality": 75,
+  "Siltation": 35,
+  "AgriculturalPractices": 58,
+  "Encroachments": 38,
+  "IneffectiveDisasterPreparedness": 45,
+  "DrainageSystems": 68,
+  "CoastalVulnerability": 15,
+  "Landslides": 18,
+  "Watersheds": 52,
+  "InfrastructureDecay": 48,
+  "PopulationScore": 58,
+  "WetlandLoss": 28,
+  "InadequatePlanning": 42,
+  "PoliticalFactors": 38,
+  "district": "Amritsar",
+  "state": "Punjab"
+}
+
